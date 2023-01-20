@@ -1,0 +1,86 @@
+===========================================================================================================================================================================
+
+Test 1
+
+reverse_int(123)
+321
+
+reverse_int(908)
+809
+
+reverse_int(112)
+211
+
+reverse_int(385)
+583
+
+reverse_int(839)
+938
+
+reverse_int(173)
+371
+
+===========================================================================================================================================================================
+
+Test 2
+
+finalMark(60,83,80,78.75,84.2)
+80.03
+
+finalMark(100,80.4,85.3,92.8,86.5)
+87.77000000000001
+
+finalMark(100,100,100,100,100)
+100.0
+
+finalMark(50,90.5,60,80,70)
+73.1
+
+===========================================================================================================================================================================
+
+Test 3
+
+bibformat("John", "mocking bird", "ottawa", "NASA", 2005)
+'John (2005). mocking bird. ottawa: NASA'
+
+bibformat("Dan", "Spongebob", "toronto", "Dell", 2015)
+'Dan (2015). Spongebob. toronto: Dell'
+
+bibformat("TahaHussein", "Days", "Egypt", "ARN", 1967)
+'TahaHussein (1967). Days. Egypt: ARN'
+
+===========================================================================================================================================================================
+
+Test 4
+
+bibformatPrint()
+Enter the name of the author: John
+Enter the title of a book: Spongebob
+In what city are the headquarters of the publisher? ottawa
+Enter the name of the publisher: NASA
+What year was the book bublished? 1960
+John (1960). Spongebob. ottawa: NASA
+
+bibformatPrint()
+Enter the name of the author: TahaHussein
+Enter the title of a book: Days
+In what city are the headquarters of the publisher? Egypt
+Enter the name of the publisher: ARN
+What year was the book bublished? 1967
+TahaHussein (1967). Days. Egypt: ARN
+
+===========================================================================================================================================================================
+
+Test 5
+
+travelTime(550,10)
+3300.0
+
+travelTime(400,100)
+240.0
+
+travelTime(20.6,60)
+20.6
+
+travelTime(1.5,150)
+0.6
