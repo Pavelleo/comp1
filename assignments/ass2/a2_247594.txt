@@ -1,0 +1,139 @@
+===========================================================================================================================================================================
+
+Test 1
+
+skate(30,-10)
+True
+
+skate(25.4,-15)
+False
+
+skate(33, -15)
+True
+
+skate(33, -5)
+False
+
+skate(40,-5)
+False
+
+skate(10,-45)
+False
+
+skate(40,-45)
+True
+
+===========================================================================================================================================================================
+
+Test 2
+
+alphaNote(100)
+'A+'
+
+alphaNote(89)
+'A'
+
+alphaNote(56)
+'D+'
+
+alphaNote(30)
+'F'
+
+alphaNote(55)
+'D+'
+
+alphaNote(85)
+'A'
+
+alphaNote(78)
+'B+'
+
+alphaNote(45)
+'E'
+
+===========================================================================================================================================================================
+
+Test 3
+
+alphaNoteVerif()
+Please input the final mark (from 0 to 100): 103
+Please input the final mark (from 0 to 100): 200.6
+Please input the final mark (from 0 to 100): 78
+The letter mark is: B+
+Passed
+
+alphaNoteVerif()
+Please input the final mark (from 0 to 100): -8
+Please input the final mark (from 0 to 100): 0
+The letter mark is: F
+Failed
+
+alphaNoteVerif()
+Please input the final mark (from 0 to 100): -543
+Please input the final mark (from 0 to 100): 21.55
+The letter mark is: F
+Failed
+
+alphaNoteVerif()
+Please input the final mark (from 0 to 100): 123.4
+Please input the final mark (from 0 to 100): 984
+Please input the final mark (from 0 to 100): 99.9
+The letter mark is: A+
+Passed
+
+alphaNoteVerif()
+Please input the final mark (from 0 to 100): 49.9
+The letter mark is: E
+Failed
+
+===========================================================================================================================================================================
+
+Test 4
+
+loops(13)
+1 3 5 7 9 11 13 
+13 11 9 7 5 3 1 
+
+loops(10)
+1 3 5 7 9 
+10 8 6 4 2 
+
+loops(5)
+1 3 5 
+5 3 1 
+
+loops(25)
+1 3 5 7 9 11 13 15 17 19 21 23 25 
+25 23 21 19 17 15 13 11 9 7 5 3 1 
+
+loops(8)
+1 3 5 7 
+8 6 4 2 
+
+loops(22)
+1 3 5 7 9 11 13 15 17 19 21 
+22 20 18 16 14 12 10 8 6 4 2 
+
+===========================================================================================================================================================================
+
+Test 5
+
+tester()
+Enter your password: uOttawa2022
+Try again, your password does not meet all requirements
+
+tester()
+Enter your password: uOttawa@2022
+Great, your password meets all requirements
+
+tester()
+Enter your password: iHateVideoG@mes!
+Try again, your password does not meet all requirements
+
+tester()
+Enter your password: LeagueofLegends$ucks123
+Try again, your password does not meet all requirements
+
+tester()
+Enter your password: Password#3
+Great, your password meets all requirements
