@@ -1,0 +1,56 @@
+task 1
+
+true
+false
+true
+
+
+task 2
+
+A variable a1, referes to an object of what type?
+<class 'str'>
+A variable s4, referes to an object of what type?
+<class 'list'>
+A variable s4[0], referes to an object of what type?
+<class 'str'>
+
+
+task 3
+
+True
+False
+True
+[2, 4, "oaxaca", True]
+[2, 4, "oaxaca", True]
+[2, 4, "oaxaca", False]
+
+
+task 5
+
+d) 48
+
+
+task 6
+
+apple orange banana cherry  
+
+apple orange banana cherry  
+
+Hi  Joe  Please come to my party on Saturday!
+Hi  Amy  Please come to my party on Saturday!
+Hi  Brad  Please come to my party on Saturday!
+Hi  Angelina  Please come to my party on Saturday!
+Hi  Zuki  Please come to my party on Saturday!
+Hi  Thandi  Please come to my party on Saturday!
+Hi  Paris  Please come to my party on Saturday!
+
+
+task 7
+
+1| 2| 4| 8| 16| 
+1| 2| 4| 8| 
+1| 2| 4| 
+1| 2| 
+1| 
+
+
